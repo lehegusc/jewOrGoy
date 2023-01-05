@@ -1,0 +1,230 @@
+/* The side navigation menu */ 
+.sidenav { 
+    height: 100%; /* 100% Full-height */ 
+    width: 100%; /* 0 width - change this with JavaScript */ 
+    position: fixed; /* Stay in place */ 
+    z-index: 1; /* Stay on top */ 
+    top: 0px; /* Stay at the top */ 
+    left: 0; 
+    background-color: #111; /* Black*/ 
+    overflow-x: hidden; /* Disable horizontal scroll */ 
+    padding-top: 60px; /* Place content 60px from the top */ 
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */ 
+    transform: scale(1.0); 
+    text-align: center;
+    
+  }  
+  
+  /* The navigation menu links */ 
+  .sidenav p, h1 { 
+    padding: 8px 8px 8px 32px; 
+    text-decoration: none; 
+    font-size: 25px;  
+    color: #818181; 
+    display: block; 
+    transition: 0.3s; 
+    transform: translate(-15px, 0px);
+    
+     
+  } 
+  
+  .sidenav h1 { 
+      font-size: 40px; 
+  margin-top: -30px; 
+  
+  }
+  
+  /* When you mouse over the navigation links, change their color */ 
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .game{
+      text-align: center;
+      transform: scale(1.0);
+      font-size: 50px;
+      margin-top: 100px;
+  }
+  
+  body {
+   background-color: ivory;
+   font-family: century-gothic;
+  }
+  
+  .button {
+    position: relative;
+    background-color: #04AA6D;
+    border: none;
+    font-size: 40px;
+    color: #FFFFFF;
+    width: 300px;
+    padding: 2px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+
+  #container {
+    width: 40%;
+    height: 20%;
+    margin: 0 auto 200px auto;
+    border: solid 2px black;
+  }
+
+  #image {
+    width: 90%;
+    height: 90%;
+  }
+  
+  .button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s;
+    
+    
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  
+  #zitat{
+      margin-top: -150px;
+  word-break: break-word;
+  font-size: 30px;
+  position: absolute;
+  margin-bottom: 0;
+  text-align: center;
+  left: 10%;
+  right: 10%;
+  }
+  
+  .bottom{
+      
+  position: absolute;
+      bottom: 0;
+      width: 100%;
+      top: 20%;
+      height: 2em;
+      align-items: flex-end;
+      margin-top: 300px;
+      
+      
+      
+  }
+  .span{
+      font-size: 30px;
+  }
+  
+  i{
+      font-size: 20px;
+  color: #818181;
+  
+  }
+  
+  .sidenav .container{
+      display: flex;
+      text-align: center;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .sidenav .element{
+      padding: 8px 8px 8px 32px; 
+    text-decoration: none; 
+    font-size: 25px;  
+    color: #818181; 
+    transition: 0.3s; 
+    
+    text-align: center;
+  }
+  
+  #info{
+      margin-top: 40px;
+  }
+  
+  .info{
+      height: 100%; /* 100% Full-height */ 
+    width: 100%; /* 0 width - change this with JavaScript */ 
+    position: fixed; /* Stay in place */ 
+    z-index: 1; /* Stay on top */ 
+    top: 0px; /* Stay at the top */ 
+    left: 0; 
+    background-color: #111; /* Black*/ 
+    padding-top: 60px; /* Place content 60px from the top */ 
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */ 
+    transform: scale(1.0); 
+    text-align: center;
+    overflow: scroll;
+  }
+  
+  .info p, h1, h2 {
+    padding: 8px 8px 8px 32px; 
+    text-decoration: none; 
+    font-size: 25px;  
+    color: #818181; 
+    display: block; 
+    transition: 0.3s; 
+    transform: translate(-15px, 0px);
+  }
+  
+  .info .container{
+    display: flex;
+    text-align: center;
+  align-items: center;
+  justify-content: center;
+    }
+    
+  .info .element{
+      margin-left: 50px;
+  margin-right: 50px;
+  }
+  
+  .myButton{
+      box-shadow: 0px 1px 0px 0px #1c1b18;
+      background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+      background-color:#eae0c2;
+      border-radius:15px;
+      border:8px solid #333029;
+      display:inline-block;
+      cursor:pointer;
+      color:#505739;
+      font-family:Arial;
+      font-size:22px;
+      font-weight:bold;
+      padding:10px 24px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #ffffff;
+  } 
+  .myButton:hover {
+      background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+      background-color:#ccc2a6;
+  }
+  .myButton:active {
+      position:relative;
+      top:1px;
+  }

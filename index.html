@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+ <head>
+  <title>Zitate-Quiz</title>
+  <link rel="stylesheet" href="style.css">
+  <script
+   src="https://kit.fontawesome.com/fcc94d345f.js"
+   crossorigin="anonymous"></script>
+ </head>
+ <body>
+  <div id="mySidenav" class="sidenav">
+   <h1> Hitler oder Hildmann? <br> -Das Quiz-</h1>
+   <br>
+   <p id="start" onclick="start()">Starte neues Spiel
+   </p>
+   <p class="message"><i
+     class="far fa-question-circle"></i>
+    Entscheide, ob das Zitat
+    von einem
+    Nazi <br>oder
+    vom
+    Verschwörungstheoretiker <br>Attila Hildmann stammt!
+   </p>
+   <br>
+   <div class="container">
+    <div class="element">Punkte:<span
+      id="score2">0</span></div>
+    
+    <div class="element">Highscore:<span
+      id="high">0</span></div>
+   </div>
+   <i class="fas fa-info-circle" id="info"
+    onclick="window.location.href = 'info.html';"></i>
+  </div>
+  <div class="game">
+    <div id="container"> 
+        <img id="image" src="img/0.jpg">
+    </div>
+  
+   <br>
+   <div class="bottom">
+    <span class="span">Punkte: <span id="score">0</span>
+     <br>
+     <button onclick="nazi()"
+      class="button">Jude</button>
+     <button onclick="naso()"
+      class="button">Goy</button>
+     
+     
+     <!--<p id="ausgabe">Ausgabe</p>-->
+     
+   </div></span>
+   
+  </div>
+  <script src="script.js"></script>
+ </body>
+</html>
